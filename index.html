@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="/submit" method="post">
+        
+    <label for="username">Username</label>
+    <br>
+    <input type="text" id="username" name="username"
+        placeholder="Enter your username" required>
+    <br><br>
+
+    <label>Preferred Contact Method:</label>
+    <br>
+    <input type="radio" id="email" name="contact-method" value="email">
+    <label for="email">Email</label>
+    <br>
+    <input type="radio" id="phone" name="contact-method" value="phone">
+    <label for="phone">Phone</label>
+    <br><br><br>
+    
+    <input type="email" id="user-email" name="user-email"
+        placeholder="Enter your email" required>
+    <br><br>
+    <input type="text" id="user-phone" name="phone" pattern="[0-9]{10}"
+        placeholder="Enter your 10-digit phone number">
+    <br><br>
+
+    <label for="comments">Additional Comments:</label>
+    <br>
+    <textarea id="comments" name="comments" rows="4" cols="50"
+      placeholder="Share your thoughts">
+    </textarea>
+    <br><br>
+    <label>Please choose a date for me to contact you:   </label>
+    <input type="date"> 
+    <br><br>
+    <h2>Social Media Links</h2>
+    <label>Facebook</label>
+    <a href="https://www.facebook.com/jedaniels3933" target="_blank" rel="nofollow">
+        <h4>Click Here</h4>
+    <br>
+    <label> X </label>
+    <a href="http://www.x.com/Jedaniels3933" target = "_blank" rel="nofollow"> 
+        <h4>Click Here</h4>>
+
+</body>
+</html>
